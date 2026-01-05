@@ -79,12 +79,12 @@ export default function PricingPage() {
 
           {/* Billing Toggle */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px', justifyContent: 'center' }}>
-            <div style={{ display: 'inline-flex', alignItems: 'center', backgroundColor: colors.neutral.gray100, borderRadius: '9999px', padding: '4px', border: `1px solid ${colors.border.light}` }}>
+            <div style={{ display: 'inline-flex', alignItems: 'center', backgroundColor: colors.neutral.gray100, borderRadius: '6px', padding: '4px', border: `1px solid ${colors.border.light}` }}>
               <button
                 onClick={() => setBillingCycle('monthly')}
                 style={{
                   padding: '8px 24px',
-                  borderRadius: '9999px',
+                  borderRadius: '6px',
                   fontSize: '14px',
                   fontWeight: '600',
                   transition: 'all 0.2s',
@@ -101,7 +101,7 @@ export default function PricingPage() {
                 onClick={() => setBillingCycle('annual')}
                 style={{
                   padding: '8px 24px',
-                  borderRadius: '9999px',
+                  borderRadius: '6px',
                   fontSize: '14px',
                   fontWeight: '600',
                   transition: 'all 0.2s',
@@ -122,7 +122,7 @@ export default function PricingPage() {
                 fontSize: '13px',
                 fontWeight: '600',
                 padding: '8px 16px',
-                borderRadius: '9999px',
+                borderRadius: '6px',
                 boxShadow: '0 4px 16px rgba(16, 185, 129, 0.2), 0 4px 16px rgba(139, 92, 246, 0.15)',
               }}>
                 Economize 20%

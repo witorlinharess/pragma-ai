@@ -36,7 +36,7 @@ export const PricingCard: React.FC<PricingCardProps> = ({ plan, onSelect, billin
         transition: 'all 0.3s',
         background: colors.ai.cardBg,
         border: plan.isPopular
-          ? `2px solid ${colors.primary.purple}`
+          ? `1px solid ${colors.primary.purple}`
           : `1px solid ${colors.ai.cardBorder}`,
         boxShadow: plan.isPopular
           ? colors.ai.popular.shadow
